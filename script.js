@@ -26,7 +26,7 @@ function gameLoop() {
 
         ctx.fillStyle = "white";
         ctx.font = "30px Arial";
-        ctx.fillText("OFFICE", 320, 300);
+        ctx.fillText("ROOM", 320, 300);
     }
 
     requestAnimationFrame(gameLoop);
