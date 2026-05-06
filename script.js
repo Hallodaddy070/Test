@@ -13,16 +13,16 @@ function gameLoop() {
 
     if (cameraOn) {
         // Camera view
-        ctx.fillStyle = "darkgreen";
-        ctx.fillRect(0, 0, 800, 600);
+        ctx.fillStyle = "darkblue";
+        ctx.fillRect(0, 0, 800, 200);
 
         ctx.fillStyle = "white";
-        ctx.font = "30px Arial Medium Italic";
+        ctx.font = "30px Arial";
         ctx.fillText("CAMERA VIEW", 280, 300);
     } else {
         // Office view
         ctx.fillStyle = "darkred";
-        ctx.fillRect(0, 0, 800, 600);
+        ctx.fillRect(0, 0, 800, 200);
 
         ctx.fillStyle = "white";
         ctx.font = "30px Arial";
