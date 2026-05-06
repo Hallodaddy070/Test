@@ -13,7 +13,7 @@ function gameLoop() {
 
     if (cameraOn) {
         // Camera view
-        ctx.fillStyle = "darkblue";
+        ctx.fillStyle = "darkgreen";
         ctx.fillRect(0, 0, 800, 600);
 
         ctx.fillStyle = "white";
