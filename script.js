@@ -17,7 +17,7 @@ function gameLoop() {
         ctx.fillRect(0, 0, 800, 600);
 
         ctx.fillStyle = "white";
-        ctx.font = "30px Arial";
+        ctx.font = "30px Arial Medium Italic";
         ctx.fillText("CAMERA VIEW", 280, 300);
     } else {
         // Office view
